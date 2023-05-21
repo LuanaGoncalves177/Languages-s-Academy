@@ -1,0 +1,66 @@
+header {
+	margin-bottom: 10rem;
+}
+.contato {
+    margin: 3.2rem 0;
+    display: block;
+	position: relative;
+	padding: 4.8rem;
+	background-color: var(--cor-do-quadro);
+	height: auto;
+	padding-bottom: 60px;
+}
+.logo-marca-contato {
+	display: block;
+	position: relative;
+	margin-top: 8rem;
+}
+.logo-marca-contato img {
+    position: absolute;
+	left: 30%;
+	bottom: 2rem;
+}
+.logo-marca-contato h2 {
+    font-size: 2.4rem;
+    position: absolute;
+	left: 42%;
+	bottom: 0;
+
+}
+form {
+	margin-top: 3rem;
+}
+
+.contato label,.contato legend {
+	display: block;
+	font-size: 2.4rem;
+	margin: 0 0 0.1rem; 
+	color: var(--azul-da-pagina);
+}
+
+.input-padrao, .input-text {
+	display: block;
+	margin: 0 0 1.5rem;
+	padding: 1.6rem 3.5rem; 
+	width: 100%; 
+}
+.input-text {
+	border-radius: none;
+}
+.input-padrao {
+	border-radius: 50rem;
+}
+.checkbox {
+	margin: 3.2rem 0;
+}
+.botao-enviar {
+    width: 30%;
+    padding: 1.5rem;
+    position: absolute;
+    left: 28.875rem;
+    font-size: 3.2rem;
+    background:white; 
+	color: var(--azul-da-pagina); 
+	font-weight: bold;
+    border-radius: 3.6rem;
+}

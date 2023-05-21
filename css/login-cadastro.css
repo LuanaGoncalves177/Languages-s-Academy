@@ -1,0 +1,69 @@
+
+.login, .cadastro {
+    max-width: 80rem;
+    margin: auto;
+    background-color:var(--cor-do-quadro);
+    margin-bottom: 50px;
+    padding: 4.8rem;
+    border-color: 5px solid var(--azul-da-pagina);   
+    position: relative;
+    padding-bottom: 60px;
+}
+.login-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px; 
+    width: 100%; 
+    border-radius: 20px;
+}
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px; 
+    width: 100%; 
+    border-radius: 20px;
+}
+.login label, .login legend, .cadastro label, .cadastro legend{
+	display: block;
+    font-size: 2.4rem;
+    color: var(--azul-da-pagina);
+    margin: 0 0 10px; 
+}
+.logo-marca {
+      margin-bottom: 8rem;
+      display: block;
+}
+
+.logo-marca img {
+    position: absolute;
+    left: 30%;
+   
+}
+.logo-marca h2 {
+    font-size: 2.4rem;
+    position: absolute;
+    left: 45%;
+    top: 7rem; 
+ 
+}
+.botao-login {
+    width: 40%;
+    padding: 0.625rem;
+    position: absolute;
+    left: 22rem;
+    font-size: 1.87rem;
+    background:white; 
+	color: var(--azul-da-pagina); 
+	font-weight: bold;
+    border-radius: 30px;
+}
+.dados-pessoais {
+    background-color:none;
+}
+.dados-curso {
+   background-color: none;
+   margin-bottom: 3rem;
+}
+@media(max-width: 700px){
+  
+}

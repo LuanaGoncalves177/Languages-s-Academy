@@ -1,0 +1,149 @@
+@import"reset.css"; 
+@import"cursos.css"; 
+@import"contato.css"; 
+@import"quem-somos.css"; 
+@import"login-cadastro.css";
+
+body{
+    background-color: white;
+    background-image: url("../imagens/index-background.png");
+    background-size: cover;
+}
+.container {
+    max-width: 90rem;
+    margin: auto;
+    position: relative;
+}
+/* Header cabeçalho */ 
+header {
+    position: relative;
+    margin-bottom: 8rem;
+    position: relative;
+    vertical-align: bottom;
+}
+header img {
+    margin-left: 4rem;
+    padding: 2rem;
+    display: inline-block;
+    position: absolute;
+}
+header h1 {
+    display: inline-block;
+    margin-left: 14rem;
+    margin-top: 4rem;
+}
+header h1, header ul {
+    font-size: 1.8rem;
+}
+header ul {
+    position: absolute;
+    right: 5.2rem;
+    top: 5rem; 
+}
+header ul li {
+    display: inline-block;
+    padding-right: 2rem;
+    text-transform: uppercase;
+}
+header ul li a {
+    text-decoration: none;
+    color: var(--azul-da-pagina);
+    font-weight: bold;
+}
+header ul li a:hover {
+    color: #9e0059;
+    text-decoration: underline;
+}
+/*Classe conteudo*/
+.conteudo {
+    position: relative;
+    margin-bottom: 2rem;
+}
+.conteudo h2 {
+    font-size: 7.2rem;
+    margin-bottom: 3.2rem;
+    font-weight: bold;
+    color: var(--azul-da-pagina);
+    text-shadow: 0.5rem 0.5rem rgba(0,0,0, 0.15);
+    border-color: white;
+}
+.conteudo h3 {
+    font-size: 4.8rem;
+    margin-bottom: 1.6rem;
+}
+.conteudo h2, .conteudo h3, .conteudo p, footer, .botao {
+    text-align: center;
+}
+.conteudo p {
+    font-size: 3.6rem;
+    margin-bottom: 4.8rem;
+}
+/* Botões o main */
+.botao{
+    padding: 1.5rem 0;
+    width: 40%;
+	background:white; 
+	color: var(--azul-da-pagina); 
+	font-weight: bold;
+    font-size: 4rem; 
+    margin-bottom: 16rem;
+    border-radius: 3rem;
+    border: none; 
+    position: absolute; 
+    left: 27.2rem;
+	transition: 1s all; 
+    cursor: pointer;
+}
+#espanha-bottom {
+    border: 2px solid red;
+    border-radius: 20rem;
+}
+.botao-index {
+    position: absolute;
+    left: 37rem; 
+    z-index: 1;
+    font-size: 5rem;
+    color:transparent;
+}
+.botao-index {
+    top: 33.6rem;
+}
+
+.botao:hover, .botao-login:hover, .botao-enviar:hover{
+    background: var(--azul-da-pagina); 
+    color: white;
+}
+/* Classe de cursos */
+.cursos {
+    margin-top: 20rem;
+    padding: 3.2em;
+    border: none; 
+    border-radius: 50px;
+    box-shadow: 0 10px 10px rgba(0,0,0, 0.25);
+    background-color: #E9E9E9;
+}
+.cursos ul li  {
+    display: inline-block;
+    margin-left: 1.6rem;
+    margin-left: 3.2rem;
+}
+.cursos-descricao {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+/*Classe do Footer (rodapé)*/
+footer {
+    background-color: var(--azul-da-pagina);
+    padding: 2rem;
+    color: white;
+    font-size: 2rem;
+    margin-top: 10rem;
+}
+footer img {
+    margin-bottom: 1rem;
+}
+

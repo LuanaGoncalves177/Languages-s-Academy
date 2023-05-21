@@ -1,0 +1,113 @@
+/* Containers*/
+.card {
+    padding: 4.8rem;
+    margin-bottom: 3.2rem;
+    border: 1rem black;  
+}
+.card-conteudo {
+    padding: 11.2rem 6.4rem 11.2rem 6.4rem;
+    background-color: #E9E9E9;
+    margin-bottom: 8rem;
+    box-shadow: 4px 4px 4px 4px  rgba(0, 0,0, .15);
+    position: relative;
+}
+.card-conteudo h3 {
+    font-size: 3rem;
+    color: red;
+}
+.card h2 {
+    font-size: 4.8rem;
+    color: #00296b;
+    text-align: center;
+    margin-bottom: 6.4rem;
+}
+
+/*imagens das bandeiras */ 
+#estados-unidos, #frança-img, #espanha, #italia {
+    width: 55%;
+    height: auto;
+    float: left;
+    box-shadow: 4px 4px 4px 4px  rgba(0, 0,0, .15);
+    margin-bottom: 3.2rem;
+}
+#frança-img, #italia {
+    float: right;
+    border-radius: 50px 0 50px 0 ;
+    margin-left: 3.2rem;
+}
+#estados-unidos, #espanha {
+    float: left;
+    border-radius: 0 50px 0 50px;
+    margin-right: 3.2rem;
+}
+#estados-unidos  {
+    border: 5px solid blue; 
+}
+#espanha {
+    border: 5px solid yellow;
+}
+#italia {
+    border: 5px solid green;
+}
+#frança-img {
+    border: 5px solid white;  
+}
+/* Boas vindas */
+.impar, .par {
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-bottom: 3.2rem;
+    color: transparent;
+}
+.impar {
+    text-align: left;
+}
+.par {
+    text-align: right;
+}
+/* Descrição dos cursos */
+.ul-franca li, .ul-eua, .ul-espanha, .ul-italia{
+    list-style-type: none;
+}
+.ul-franca li, .ul-italia li{
+    text-align: right;
+}
+.ul-eua li::before {
+     content: "★";
+    color: blue;
+}
+.ul-franca li::after {
+    content:"★" ;
+    color: red;
+}
+.ul-espanha li::before {
+    content:"★" ;
+    color: yellow;
+}
+.ul-italia li::after {
+    content:"★" ;
+    color: green;
+}
+.ul-franca li, .ul-eua li , .ul-espanha li , .ul-italia li {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.1rem;
+}
+ul li strong {
+    font-weight: bold;
+}
+/*botao*/ 
+.botao {
+    width: 30%;
+    position: absolute;
+    left: 30%;
+    margin-top: 1.6rem;
+}
+.botao-cursos {
+    position: absolute;
+    left: 33.6rem;
+    top: 88%;
+    font-size: 4rem;
+    z-index: 1;
+    color: transparent;
+}

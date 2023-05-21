@@ -1,0 +1,13 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --azul-da-pagina:#00296b;
+    --cor-do-quadro:  #E9E9E9; 
+}
+body, html {
+    font-size: 62.5%;
+}

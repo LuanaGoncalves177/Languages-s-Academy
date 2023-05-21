@@ -1,0 +1,52 @@
+main {
+    background-color: #E9E9E9;
+    padding-bottom: 3.2rem;
+}
+.quem-somos {
+    padding: 8rem;
+    position: relative;
+}
+.quem-somos img {
+    position: absolute;
+    left: 45%;
+    margin-bottom: 1rem;
+}
+#entrada {
+    width: 80%;
+    height: auto;
+    border: 10px solid var(--azul-da-pagina);
+    border-radius: 2rem;
+    margin-left: 8rem;
+    margin-top: 6.4rem;
+}
+.quem-somos-conteudo {
+    margin-top: 6.44rem;
+}
+.quem-somos-conteudo h2 {
+    text-align: center;
+    font-size: 4.8rem;
+    margin-bottom: 3.2em;
+    color:  var(--azul-da-pagina);
+    text-shadow: 2px 2px rgba(0, 0, 0, .15);
+}
+.quem-somos-conteudo p {
+    line-height: 2.4rem;
+    font-size: 2.4rem;
+    letter-spacing: 0.1rem;
+}
+.quem-somos-conteudo p strong{
+    font-weight: bold;
+    
+}
+.botao-saiba-mais {
+   top: 93rem; 
+    position: absolute;
+    left: 36rem; 
+    z-index: 1;
+    font-size: 4rem;
+    color: transparent;
+}
+@media(max-width: 940px){
+    
+}
+
